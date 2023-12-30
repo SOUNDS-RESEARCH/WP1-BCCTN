@@ -8,7 +8,7 @@ This repository contains the code for the neural network models, training and ev
 # Introduction 
 The software was developed in the frame of WP1 for binaural speech
 enhancement using deep complex-valued convolutional networks
-[@Tokala2024] in acoustic scenarios with a single target speaker and
+[Tokala2024] in acoustic scenarios with a single target speaker and
 isotopic noise of various types.
 
 Github Repository: <https://github.com/SOUNDS-RESEARCH/WP1-BCCTN>
@@ -63,9 +63,7 @@ and loss function files.
     files, and complex-valued Pytorch functions necessary for training
     the network.
 
--   **feature_extractors.py:** This script contains the
-    [STFT]{acronym-label="STFT" acronym-form="singular+short"} and
-    [ISTFT]{acronym-label="ISTFT" acronym-form="singular+short"}
+-   **feature_extractors.py:** This script contains the STFT and ISTFT
     functions which perform feature extraction for the training of the
     network.
 
